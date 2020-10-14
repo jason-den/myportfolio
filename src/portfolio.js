@@ -223,7 +223,8 @@ const achievementSection = {
   achivementsCards: [
     {
       title: "AWS Solution Architect Associate",
-      subtitle: "",
+      subtitle:
+        "Define a solution using architectural design principles based on customer requirements",
       image: require("./assets/images/AWS-SolArchitect-Associate.png"),
       footerLink: [
         {
@@ -247,7 +248,7 @@ const achievementSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+61-478099095",

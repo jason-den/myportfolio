@@ -2,6 +2,8 @@
   max-width: 100%;
   height: auto;
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card-title {
   color: #000000;
@@ -42,11 +44,12 @@
 .certificate-card-footer {
   display: flex;
   align-items: center;
+
   flex-wrap: wrap;
   justify-content: center;
 }
 .certificate-card-footer span.certificate-tag {
-  background: #55198b;
+  background: #2ea44f;
   color: #f5f2f4;
   vertical-align: middle;
   align-items: center;
@@ -57,11 +60,13 @@
   justify-content: center;
   white-space: nowrap;
   line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
+  margin: 0.5rem 0.5rem 0.5rem 0;
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
 }
 span.certificate-tag:hover {
-  background: #8c43ce;
+  border: solid 1px #2ea44f;
+  background-color: #ffffff;
+  color: #2ea44f;
 }
