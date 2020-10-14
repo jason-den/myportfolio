@@ -24,21 +24,22 @@ export default function StartupProject() {
           >
             {bigProjects.subtitle}
           </p>
-          <div className="startup-projects-main">
-            <div className="startup-project-text">
-              {bigProjects.projects.map((project) => {
-                return (
-                  <div
-                    className="saaya-health-div"
+          {bigProjects.projects.map((project) => {
+            return (
+              <div className="row">
+                <div className="cursor-pointer col-6">
+                  <img
                     onClick={() => openProjectInNewWindow(project.link)}
-                  >
-                    <img alt="Saad Working" src={project.image}></img>
-                  </div>
-                );
-              })}
-            </div>
-            <div className="startup-project-image"></div>
-          </div>
+                    alt="Project Summary"
+                    src={project.image}
+                  ></img>
+                </div>
+                <div className="col-6">
+                  <p>{project.description}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </Fade>
