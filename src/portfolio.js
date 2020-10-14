@@ -88,7 +88,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Machine Learing",
-      fontAwesomeClassname: "fad fa-rocket",
+      fontAwesomeClassname: "fab fa-rocket",
     },
   ],
 };
