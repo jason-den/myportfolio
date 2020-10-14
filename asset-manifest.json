@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bb3ca7c.chunk.css",
-    "main.js": "/static/js/main.aa1283e6.chunk.js",
-    "main.js.map": "/static/js/main.aa1283e6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e2943da0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e2943da0.js.map",
+    "main.css": "/static/css/main.17468a50.chunk.css",
+    "main.js": "/static/js/main.38c9ad34.chunk.js",
+    "main.js.map": "/static/js/main.38c9ad34.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3656206a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3656206a.js.map",
     "static/js/2.78da0076.chunk.js": "/static/js/2.78da0076.chunk.js",
     "static/js/2.78da0076.chunk.js.map": "/static/js/2.78da0076.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
-    "static/js/3.a06f7c85.chunk.js": "/static/js/3.a06f7c85.chunk.js",
-    "static/js/3.a06f7c85.chunk.js.map": "/static/js/3.a06f7c85.chunk.js.map",
+    "static/js/3.3646ff74.chunk.js": "/static/js/3.3646ff74.chunk.js",
+    "static/js/3.3646ff74.chunk.js.map": "/static/js/3.3646ff74.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.291ee59818fc9d595ae76d083d8122b2.js": "/precache-manifest.291ee59818fc9d595ae76d083d8122b2.js",
+    "precache-manifest.9ae98b777cddf00edb740782c62e2801.js": "/precache-manifest.9ae98b777cddf00edb740782c62e2801.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
-    "static/css/main.0bb3ca7c.chunk.css.map": "/static/css/main.0bb3ca7c.chunk.css.map",
+    "static/css/main.17468a50.chunk.css.map": "/static/css/main.17468a50.chunk.css.map",
     "static/media/AWS-SolArchitect-Associate.png": "/static/media/AWS-SolArchitect-Associate.c041404a.png",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/React.png": "/static/media/React.638be909.png",
@@ -38,9 +38,9 @@
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.b48e86c9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2943da0.js",
+    "static/js/runtime-main.3656206a.js",
     "static/js/2.78da0076.chunk.js",
-    "static/css/main.0bb3ca7c.chunk.css",
-    "static/js/main.aa1283e6.chunk.js"
+    "static/css/main.17468a50.chunk.css",
+    "static/js/main.38c9ad34.chunk.js"
   ]
 }
