@@ -4,17 +4,16 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
-import GithubProjects from "./projects/GithubProjects";
+// import GithubProjects from "./githubProjects/GithubProjects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
+import Profile from "./profile/Profile";
 import Footer from "../components/footer/Footer";
-import Contact from "./contact/Contact";
 // import Blogs from "./blogs/Blogs";
 // import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
-import Profile from "./profile/Profile";
 
 export default class Main extends Component {
   constructor(props) {
@@ -40,19 +39,17 @@ export default class Main extends Component {
         >
           <Header />
           <Top />
-
-
           <Greeting />
           <Skills />
-          {/* <StartupProject /> */}
           {/* <GithubProjects /> */}
+          <StartupProject />
           <WorkExperience />
           <StackProgress />
           <Achievement />
 
           <Profile />
           <Footer />
-          
+
           {/* <Education /> */}
           {/* <Blogs /> */}
         </StyleProvider>
