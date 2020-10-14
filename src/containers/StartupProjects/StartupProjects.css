@@ -6,7 +6,11 @@ img {
 }
 
 .startup-projects-main {
+  margin-top: 3em;
   display: flex;
+}
+.project-container {
+  margin-bottom: 4em;
 }
 
 /* .startup-projects-main > * {

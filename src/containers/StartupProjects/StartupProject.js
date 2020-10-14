@@ -14,28 +14,30 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
-            {bigProjects.subtitle}
-          </p>
           {bigProjects.projects.map((project) => {
             return (
-              <div className="row">
-                <div className="cursor-pointer col-6">
-                  <img
-                    onClick={() => openProjectInNewWindow(project.link)}
-                    alt="Project Summary"
-                    src={project.image}
-                  ></img>
-                </div>
-                <div className="col-6">
-                  <p>{project.description}</p>
+              <div className="project-container">
+                <h3>{project.title}</h3>
+                <p
+                  className={
+                    isDark
+                      ? "dark-mode project-subtitle col-9"
+                      : "subTitle project-subtitle col-9"
+                  }
+                >
+                  {project.subtitle}
+                </p>
+                <div className="row">
+                  <div className="cursor-pointer col-6">
+                    <img
+                      onClick={() => openProjectInNewWindow(project.link)}
+                      alt="Project Summary"
+                      src={project.image}
+                    ></img>
+                  </div>
+                  <div className="col-6">
+                    <p>{project.description}</p>
+                  </div>
                 </div>
               </div>
             );
