@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7454db2023b783ee2b9ab2439cce75b4",
+    "revision": "47f85008a554a61d22834e860808a622",
     "url": "/index.html"
   },
   {
-    "revision": "3ced947c185a4e64ed80",
+    "revision": "6e02f9ebcc60c34f28ac",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "c9fb3a79af312a03049e",
+    "revision": "9594f8d13ba6e48959cc",
     "url": "/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "2632364b57905f3abbce",
-    "url": "/static/css/main.9180326e.chunk.css"
+    "revision": "c9ea9c6efbbe02b2f0b8",
+    "url": "/static/css/main.ca7b509e.chunk.css"
   },
   {
-    "revision": "992aad4617bccc5544af",
-    "url": "/static/js/2.55695fa6.chunk.js"
+    "revision": "867578d48a6eb1f84fd5",
+    "url": "/static/js/2.187e9071.chunk.js"
   },
   {
-    "revision": "3ced947c185a4e64ed80",
-    "url": "/static/js/3.476d0265.chunk.js"
+    "revision": "6e02f9ebcc60c34f28ac",
+    "url": "/static/js/3.4ef1b3f3.chunk.js"
   },
   {
-    "revision": "c9fb3a79af312a03049e",
-    "url": "/static/js/4.b639836c.chunk.js"
+    "revision": "9594f8d13ba6e48959cc",
+    "url": "/static/js/4.89faf8e6.chunk.js"
   },
   {
-    "revision": "2632364b57905f3abbce",
-    "url": "/static/js/main.73f57d13.chunk.js"
+    "revision": "c9ea9c6efbbe02b2f0b8",
+    "url": "/static/js/main.3a96ff2d.chunk.js"
   },
   {
-    "revision": "6adb1138194d341bed68",
-    "url": "/static/js/runtime-main.a419f8eb.js"
+    "revision": "0f5aceb42d23ee2c3371",
+    "url": "/static/js/runtime-main.f9daeca9.js"
+  },
+  {
+    "revision": "c041404a08f53ac5636197bb94a81396",
+    "url": "/static/media/AWS-SolArchitect-Associate.c041404a.png"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -42,6 +46,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "638be90904f9f9248d3c69cb2992c562",
+    "url": "/static/media/React.638be909.png"
+  },
+  {
+    "revision": "02ad7d39954c78d9eb1fa7a6ffa258e6",
+    "url": "/static/media/UNSW.02ad7d39.png"
+  },
+  {
+    "revision": "7b2c3ed74a0e4835998b88aaf14d71d0",
+    "url": "/static/media/XMind.7b2c3ed7.png"
   },
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
@@ -74,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e79c639294c805688be731921368c8f8",
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
-  },
-  {
-    "revision": "83a05b10639d238bd8c5bbab279ab911",
-    "url": "/static/media/harvardLogo.83a05b10.png"
   },
   {
     "revision": "b05ae5b575a7e1125610944dc152c35f",
@@ -118,10 +130,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
-  },
-  {
-    "revision": "3b758ef56d398145542e137daa28e392",
-    "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
