@@ -4,6 +4,9 @@
   width: 55px;
   height: 26px;
 }
+.hidden {
+  visibility: hidden;
+}
 
 .slider {
   position: absolute;
@@ -88,4 +91,3 @@ input:checked + .slider::after {
     bottom: 7.5% !important;
   }
 }
-
