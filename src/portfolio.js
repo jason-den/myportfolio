@@ -35,13 +35,13 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+      "Develop highly interactive Front end / User Interfaces for your web and mobile applications",
     ),
-    emoji("⚡ Develop Clean and Robust RESTful API"),
+    emoji("Develop Clean and Robust RESTful API"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+      "Integration of third party services such as Firebase/ AWS / Digital Ocean",
     ),
-    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji("Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -88,7 +88,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Machine Learing",
-      fontAwesomeClassname: "fab fa-rocket",
+      fontAwesomeClassname: "fas fa-rocket",
     },
   ],
 }
@@ -230,7 +230,7 @@ const bigProjects = {
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications"),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
