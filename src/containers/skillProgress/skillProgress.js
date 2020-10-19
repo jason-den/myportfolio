@@ -1,7 +1,7 @@
-import React from "react";
-import "./Progress.css";
-import { techStack } from "../../portfolio";
-import { Fade } from "react-reveal";
+import React from "react"
+import "./Progress.css"
+import { techStack } from "../../portfolio"
+import { Fade } from "react-reveal"
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
@@ -14,15 +14,15 @@ export default function StackProgress() {
               {techStack.experience.map((exp) => {
                 const progressStyle = {
                   width: exp.progressPercentage,
-                };
+                }
                 return (
-                  <div className="skill col-6">
+                  <div className="skill col-sm-12 col-md-6 col-lg-4">
                     <p>{exp.Stack}</p>
                     <div className="meter">
                       <span style={progressStyle}></span>
                     </div>
                   </div>
-                );
+                )
               })}
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function StackProgress() {
           </div>
         </div>
       </Fade>
-    );
+    )
   }
-  return null;
+  return null
 }

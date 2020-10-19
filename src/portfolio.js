@@ -2,18 +2,18 @@
 
 // Your Summary And Greeting Section
 
-import emoji from "react-easy-emoji";
+import emoji from "react-easy-emoji"
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jason Den",
   title: "Hello! I'm Jason",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Swift / Objective C and some other cool libraries and frameworks."
+    "A full-stack developer who turns your ideas into reality by clean and maintainable codes, with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Swift / Objective C and some other cool libraries and frameworks.",
   ),
   resumeLink:
     "https://drive.google.com/file/d/12NZDqmmjfyeHkl9v-aWPVujNmUGCmQNv/view?usp=sharing",
-};
+}
 
 // Your Social Media Link
 
@@ -26,7 +26,7 @@ const socialMediaLinks = {
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   // Instagram and Twitter are also supported in the links!
-};
+}
 
 // Your Skills Section
 
@@ -35,11 +35,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
     ),
     emoji("⚡ Develop Clean and Robust RESTful API"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
     ),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
   ],
@@ -91,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-rocket",
     },
   ],
-};
+}
 
 // Your education background
 
@@ -110,7 +110,7 @@ const educationInfo = {
       ],
     },
   ],
-};
+}
 
 // Your top 3 proficient stacks/tech experience
 
@@ -150,7 +150,7 @@ const techStack = {
       progressPercentage: "40%",
     },
   ],
-};
+}
 
 // Your top 3 work experiences
 
@@ -162,17 +162,19 @@ const workExperiences = {
       company: "",
       companylogo: require("./assets/images/React.png"),
       date: "Oct 2019 – Now",
-      desc: "Building fullstack software for customers using MERN stack.",
+      desc:
+        "Building CRM-like web software using C# Razor, .Net core\nBuilding SEO Content Optimizer -  a tool that analyzes top search results and gives back content optimization suggestions for a digital marketer, using Python and JavaScript",
     },
     {
       role: "Application Developer",
       company: "XMind",
       companylogo: require("./assets/images/XMind.png"),
       date: "Apr 2017 – Oct 2017",
-      desc: "Developing macOS and iOS software.",
+      desc:
+        "Developed Lighten for mac, and XMind for iOS. Please check detail on Project section",
     },
   ],
-};
+}
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -181,7 +183,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "hbxz", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
-};
+}
 
 // Some Big Projects You have worked with your company
 
@@ -190,34 +192,40 @@ const bigProjects = {
   subtitle: "Building fullstack software for customers using MERN stack",
   projects: [
     {
-      title: "Lorem Ipsum is simply dummy ",
-      subtitle:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+      title: "Marketplace - React Native App",
+      subtitle: "",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      image: require("./assets/images/lighten.png"),
-      link: "https://lighten-test.xmind.net/",
+        "A marketplace for sellers and buyers to trade and negotiate second-hand products. React Native, Expo, Node.js, Express.js, MongoDB",
+      image: require("./assets/images/luke12.png"),
+      link:
+        "https://drive.google.com/file/d/1p5Iv2S7I5HG4cgxBjhuOzHP9OkJpR1aV/view?usp=sharing",
     },
     {
-      title: "Lorem Ipsum is simply dummy ",
-      subtitle:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+      title: "Sunshine Waiter - Web",
+      subtitle: "",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      image: require("./assets/images/lighten.png"),
-      link: "https://lighten-test.xmind.net/",
+        "A full-fledge order management system that supports customer ordering, waiter serving, and cooking task management. Tech stack - MongoDB, Express.js, React.js, Node.js",
+      image: require("./assets/images/sunshine-waiter.png"),
+      link: "https://sunshine-waiter.netlify.app",
     },
     {
-      title: "Lorem Ipsum is simply dummy ",
-      subtitle:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+      title: "Lighten - MacOS, iOS",
+      subtitle: "",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "XMind is a mindmap software that helps you visualize your idea. It serve millions of users globally. In the iOS team, we built it from scrach to App store in four months. Tech stack - Swift 4, Obejctive-C. ",
       image: require("./assets/images/XMind-iOS.png"),
       link: "https://www.xmind.net/mobile/",
     },
+    {
+      title: "Lighten - MacOS, iOS",
+      subtitle: "",
+      description:
+        "A beautiful mind map application that supports MacOS and iOS, featured multiple times on Mac App Store. (Now out of market and replaced by XMind - iOS) Tech stack - Swift 4, Obejctive-C.",
+      image: require("./assets/images/lighten.png"),
+      link: "https://lighten-test.xmind.net/",
+    },
   ],
-};
+}
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -251,7 +259,7 @@ const achievementSection = {
       ],
     },
   ],
-};
+}
 
 const contactInfo = {
   title: emoji("Contact Me"),
@@ -259,7 +267,7 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+61-478099095",
   email_address: "jason.den.cloud@gmail.com",
-};
+}
 
 export {
   greeting,
@@ -272,4 +280,4 @@ export {
   bigProjects,
   achievementSection,
   contactInfo,
-};
+}
