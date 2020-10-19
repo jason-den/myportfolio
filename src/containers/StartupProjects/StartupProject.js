@@ -24,16 +24,6 @@ export default function StartupProject() {
           {bigProjects.projects.map((project) => {
             return (
               <div className="project-container">
-                <h3>{project.title}</h3>
-                <p
-                  className={
-                    isDark
-                      ? "dark-mode project-subtitle col-9"
-                      : " project-subtitle col-9"
-                  }
-                >
-                  {project.subtitle}
-                </p>
                 <div className="row">
                   <div className="col-sm-12 col-md-6 cursor-pointer ">
                     <img
@@ -43,7 +33,19 @@ export default function StartupProject() {
                     ></img>
                   </div>
                   <div className="col-sm-12 col-md-6 project-description">
-                    <p>{project.description}</p>
+                    <div>
+                      <h3>{project.title}</h3>
+                      <p
+                        className={
+                          isDark
+                            ? "dark-mode project-subtitle col-9"
+                            : " project-subtitle col-9"
+                        }
+                      >
+                        {project.subtitle}
+                      </p>
+                      <p>{project.description}</p>
+                    </div>
                   </div>
                 </div>
               </div>
