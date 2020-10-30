@@ -11,8 +11,7 @@ const greeting = {
   subTitle: emoji(
     "A full-stack developer who turns your ideas into reality by clean and maintainable codes, with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Swift / Objective C and some other cool libraries and frameworks.",
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/12NZDqmmjfyeHkl9v-aWPVujNmUGCmQNv/view?usp=sharing",
+  resumeLink: "https://github.com/hbxz/myportfolio/raw/master/Resume-JasonDen.pdf",
 }
 
 // Your Social Media Link
@@ -34,13 +33,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    ),
+    emoji("Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("Develop Clean and Robust RESTful API"),
-    emoji(
-      "Integration of third party services such as Firebase/ AWS / Digital Ocean",
-    ),
+    emoji("Integration of third party services such as Firebase/ AWS / Digital Ocean"),
     // emoji("Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
   ],
 
@@ -170,8 +165,7 @@ const workExperiences = {
       company: "XMind",
       companylogo: require("./assets/images/XMind.png"),
       date: "Apr 2017 – Oct 2017",
-      desc:
-        "Developed Lighten for mac, and XMind for iOS. Please check detail on Project section",
+      desc: "Developed Lighten for mac, and XMind for iOS. Please check detail on Project section",
     },
   ],
 }
@@ -197,8 +191,7 @@ const bigProjects = {
       description:
         "A marketplace for sellers and buyers to trade and negotiate second-hand products. React Native, Expo, Node.js, Express.js, MongoDB",
       image: require("./assets/images/luke12.png"),
-      link:
-        "https://drive.google.com/file/d/1p5Iv2S7I5HG4cgxBjhuOzHP9OkJpR1aV/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1p5Iv2S7I5HG4cgxBjhuOzHP9OkJpR1aV/view?usp=sharing",
     },
     {
       title: "Sunshine Waiter - Web",
@@ -231,20 +224,17 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications"),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
       title: "AWS Solution Architect Associate",
-      subtitle:
-        "Define a solution using architectural design principles based on customer requirements",
+      subtitle: "Define a solution using architectural design principles based on customer requirements",
       image: require("./assets/images/AWS-SolArchitect-Associate.png"),
       footerLink: [
         {
           name: "Certification",
-          url:
-            "https://www.youracclaim.com/badges/47916526-6b51-4f89-9c4a-d43ed3827006/public_url",
+          url: "https://www.youracclaim.com/badges/47916526-6b51-4f89-9c4a-d43ed3827006/public_url",
         },
       ],
     },
@@ -263,8 +253,7 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+61-478099095",
   email_address: "jason.den.cloud@gmail.com",
 }
