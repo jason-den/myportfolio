@@ -11,14 +11,14 @@ const greeting = {
   subTitle: emoji(
     "A full-stack developer who turns your ideas into reality by clean and maintainable codes, with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Swift / Objective C and some other cool libraries and frameworks.",
   ),
-  resumeLink: "https://github.com/hbxz/myportfolio/raw/master/Resume-JasonDen.pdf",
+  resumeLink: "https://github.com/jason-den/myportfolio/raw/master/Resume-JasonDen.pdf",
 }
 
 // Your Social Media Link
 
 const socialMediaLinks = {
   gmail: "jason.den.cloud@gmail.com",
-  github: "https://github.com/hbxz",
+  github: "https://github.com/jason-den",
   gitlab: "https://gitlab.com/jason.den",
   linkedin: "https://linkedin.com/in/jason-den",
   // facebook: "https://www.facebook.com/saad.pasta7",
@@ -175,7 +175,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "hbxz", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "jason-den", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 }
 
