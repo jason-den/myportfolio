@@ -11,7 +11,7 @@ const greeting = {
   subTitle: emoji(
     "A full-stack developer who turns your ideas into reality by clean and maintainable codes, with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Swift / Objective C and some other cool libraries and frameworks.",
   ),
-  resumeLink: "https://github.com/jason-den/myportfolio/raw/master/Resume-JasonDen.pdf",
+  resumeLink: "https://github.com/jason-den/myportfolio/raw/master/JasonDenResume.pdf",
 }
 
 // Your Social Media Link
