@@ -1,7 +1,6 @@
 ﻿import React, { useContext } from "react"
 import "./Greeting.css"
 import SocialMedia from "../../components/socialMedia/SocialMedia"
-// import Button from "../../components/button/Button"
 import { Space, Button } from "antd"
 
 import { greeting } from "../../portfolio"
@@ -24,15 +23,12 @@ export default function Greeting() {
               <p className={isDark ? "dark-mode greeting-text-p" : "greeting-text-p subTitle"}>{greeting.subTitle}</p>
               <SocialMedia />
               <Space direction="horizontal">
-                <Button type="primary" shape="round" color="#2ea44f" children="Contact me" href="#contact" />
-                <Button
-                  type="primary"
-                  shape="round"
-                  color="#2ea44f"
-                  children="Resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                />
+                <Button type="primary" size="large" shape="round">
+                  <a href="#contact">Contact me</a>
+                </Button>
+                <Button type="primary" shape="round" size="large" children="" newTab={true}>
+                  <a href={greeting.resumeLink}>Resume</a>
+                </Button>
               </Space>
             </div>
           </div>
